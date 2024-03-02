@@ -1,0 +1,29 @@
+*{padding: 0;margin: 0;}
+.container{
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    background: #ffe7e3;
+    text-align: center;
+}
+.love, .yes, .ovisly{
+    padding-top: 15%;
+}
+h2{font-size: 55px; margin-bottom: 30px;}
+.love span{color: rgb(245, 68, 68)}
+.love a{text-decoration: none;
+    background: #eee;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 3px solid hsl(0, 29%, 45%);
+    border-radius: 10px;}
+#Yes{color: rgb(13, 13, 78)}
+img{height: 30px; width: 30px;
+    animation: heart 4s linear infinite;}
+#Ovisly{color: rgb(23, 54, 36);}
+
+@keyframes heart{
+    0%{transform: scale(0.5);}
+    50%{transform: scale(1.0);}
+    100%{transform: scale(0.5);}
+}
